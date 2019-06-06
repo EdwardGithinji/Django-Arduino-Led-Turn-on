@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Python button script</title>
+</head>
+<body>
+<button onclick="location.href='{% url 'scripton' %}'" type="submit" formmethod="get">Turn on</button>
+<button onclick="location.href='{% url 'scriptoff' %}'" type="submit" formmethod="get">Turn off</button>
+</body>
+</html>
+
+<!--
+{% if data %}
+{{data}}
+{% endif %}
+-->
